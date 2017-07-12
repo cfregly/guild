@@ -31,7 +31,10 @@ changes.
 ## Build dependencies
 
 Guild requires the following software for compilation:
-
+ 
+- sqlite3 (`apt-get install sqlite3 libsqlite3-dev`)
+- nodejs/npm (`apt-get install --yes nodejs npm`)
+- bower (`npm install -g bower`)
 - make (available via Linux system package or Command Line Tools via Xcode on OSX)
 - [Erlang](http://www.erlang.org/) (18 or later)
 
